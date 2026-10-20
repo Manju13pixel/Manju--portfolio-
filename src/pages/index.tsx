@@ -215,16 +215,18 @@ export default function Home() {
                 </span>
               </h1>
               <p
-                data-scroll
-                data-scroll-enable-touch-speed
-                data-scroll-speed=".06"
-                className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
-              >
-                I am a B.Tech Computer Science student passionate about
-programming, problem-solving, and Artificial Intelligence.
-I am continuously learning new technologies and building
-projects to improve my technical skills.
-              </p>
+              
+              <p
+               data-scroll
+               data-scroll-enable-touch-speed
+               data-scroll-speed=".06"
+               className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
+            >
+             I am a B.Tech Computer Science student passionate about programming,
+             problem-solving, and Artificial Intelligence. I am continuously
+             learning new technologies and building projects to improve my
+             technical skills.
+             </p>
             </div>
             <span
               data-scroll
@@ -232,7 +234,7 @@ projects to improve my technical skills.
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:13mnju@gmail.com passHref>
+              <Link href="mailto:13mnju@gmail.com>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -275,21 +277,15 @@ projects to improve my technical skills.
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
-              <Link
-                href="https://create.t3.gg/"
-                target="_blank"
-                className="underline"
-              >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              I am a B.Tech Computer Science and Engineering student with a strong
-interest in programming, Artificial Intelligence, and modern technologies.
-I enjoy learning new skills, solving problems, and building projects
-that help me gain practical experience. I am continuously improving
-my technical knowledge and exploring new opportunities in technology.
-            </h2>
+            <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+  I am a B.Tech Computer Science and Engineering student with a strong
+  interest in programming, Artificial Intelligence, and modern
+  technologies. I enjoy learning new skills, solving problems, and
+  building projects to gain practical experience. I am continuously
+  improving my technical knowledge and exploring new opportunities
+  in technology.
+ </h2>
+            
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
@@ -454,7 +450,7 @@ build and improve them.
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:13mnju@gmail.com>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
