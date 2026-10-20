@@ -195,9 +195,9 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>C Programming</span>
+<span className={styles.pill}>Python</span>
+<span className={styles.pill}>AI & Technology</span>
             </div>
             <div>
               <h1
@@ -403,18 +403,20 @@ build and improve them.
               className="grid items-center gap-1.5 md:grid-cols-2 xl:grid-cols-3"
             >
               <div className="flex flex-col py-6 xl:p-6">
-                <h2 className="text-4xl font-medium tracking-tight">
-                  Need more info?
-                  <br />
-                  <span className="text-gradient clash-grotesk tracking-normal">
-                    I got you.
-                  <p className="mt-2 tracking-tighter text-secondary-foreground">
-  I am developing my skills in programming, Artificial Intelligence,
-  and technology. Explore the areas I am learning and the projects
-  I am working toward.
-</p>
-                </p>
-              </div>
+  <h2 className="text-4xl font-medium tracking-tight">
+    My Skills
+    <br />
+    <span className="text-gradient clash-grotesk tracking-normal">
+      & Learning Journey.
+    </span>
+  </h2>
+
+  <p className="mt-2 tracking-tighter text-secondary-foreground">
+    I am developing my skills in programming, Artificial Intelligence,
+    and technology. Explore the areas I am learning and the projects
+    I am working toward.
+  </p>
+</div>
               {services.map((service) => (
                 <div
                   key={service.service}
@@ -446,8 +448,8 @@ build and improve them.
               <span className="text-gradient clash-grotesk">together.</span>
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;m currently available for freelance work and open to
-              discussing new projects.
+              I am open to learning opportunities, internships, collaborations,
+and exciting technology projects.
             </p>
             <Link href="mailto:13mnju@gmail.com">
               <Button className="mt-6">Get in touch</Button>
