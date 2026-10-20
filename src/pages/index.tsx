@@ -214,7 +214,6 @@ export default function Home() {
                   Manju Prajapati. 
                 </span>
               </h1>
-              <p
               
               <p
                data-scroll
@@ -234,7 +233,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:13mnju@gmail.com>
+              <Link href="mailto:13mnju@gmail.com">
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -409,11 +408,11 @@ build and improve them.
                   <br />
                   <span className="text-gradient clash-grotesk tracking-normal">
                     I got you.
-                  </span>
-                </h2>
-                <p className="mt-2 tracking-tighter text-secondary-foreground">
-                  Here are some of the services I offer. If you have any
-                  questions, feel free to reach out.
+                  <p className="mt-2 tracking-tighter text-secondary-foreground">
+  I am developing my skills in programming, Artificial Intelligence,
+  and technology. Explore the areas I am learning and the projects
+  I am working toward.
+</p>
                 </p>
               </div>
               {services.map((service) => (
@@ -450,7 +449,7 @@ build and improve them.
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:13mnju@gmail.com>
+            <Link href="mailto:13mnju@gmail.com">
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
