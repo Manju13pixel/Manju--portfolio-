@@ -28,74 +28,79 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
-  { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Degree", value: "B.Tech" },
+  { label: "Field of Study", value: "CSE" },
+  { label: "Focus", value: "AI & Tech" },
 ];
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
-  },
-  {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
+    title: "AI Government Scheme Finder",
+    description:
+      "An AI-powered project concept to help people explore government schemes and eligibility requirements.",
     image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
+    href: "#contact",
+  },
+  {
+    title: "Voice Cloning Detection",
+    description:
+      "A project concept exploring AI-based detection of voice-cloning impersonation attacks.",
+    image: "/assets/unqueue.webm",
+    href: "#contact",
+  },
+  {
+    title: "C Programming Projects",
+    description:
+      "A collection of C programming exercises for learning coding fundamentals and problem-solving.",
+    image: "/assets/translate_bot.webm",
+    href: "#contact",
+  },
+  {
+    title: "Python Mini Projects",
+    description:
+      "A collection of Python practice projects to develop programming and logical thinking skills.",
+    image: "/assets/infinitevps.webm",
+    href: "#contact",
+  },
+  {
+    title: "My Developer Portfolio",
+    description:
+      "My personal website showcasing my skills, learning journey, and technology interests.",
+    image: "/assets/wrona.jpeg",
+    href: "#home",
   },
 ];
 
 const services = [
   {
-    service: "Frontend Development",
+    service: "C Programming",
     description:
-      "Creating stellar user interfaces and web experiences using the latest technologies.",
+      "Learning programming fundamentals, logical thinking, and problem-solving using C.",
     icon: Code2,
   },
   {
-    service: "UX Design",
+    service: "Python Programming",
     description:
-      "Building intuitive, user-centric designs that drive engagement and conversion.",
-    icon: Frame,
+      "Exploring Python programming, basic concepts, and practical coding exercises.",
+    icon: Code2,
   },
   {
-    service: "SEO Optimization",
+    service: "Artificial Intelligence",
     description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
+      "Exploring AI technologies and learning how intelligent applications are built.",
     icon: SearchCheck,
   },
   {
-    service: "Responsive Design",
+    service: "Problem Solving",
     description:
-      "Designing websites that look and perform equally well on all devices and screen sizes.",
-    icon: MonitorSmartphone,
+      "Practicing programming questions and developing logical reasoning skills.",
+    icon: Frame,
   },
   {
-    service: "Backend Development",
+    service: "Technology Projects",
     description:
-      "Developing robust, scalable server-side logic for a wide range of web applications.",
-    icon: Eye,
+      "Interested in building useful projects and exploring innovative technology ideas.",
+    icon: MonitorSmartphone,
   },
 ];
 
@@ -206,7 +211,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Manju Prajapati. 
                 </span>
               </h1>
               <p
@@ -215,8 +220,10 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
+                I am a B.Tech Computer Science student passionate about
+programming, problem-solving, and Artificial Intelligence.
+I am continuously learning new technologies and building
+projects to improve my technical skills.
               </p>
             </div>
             <span
