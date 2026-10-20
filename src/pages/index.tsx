@@ -232,7 +232,7 @@ projects to improve my technical skills.
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:13mnju@gmail.com passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -284,11 +284,11 @@ projects to improve my technical skills.
               >
                 TypeScript, Tailwind, and Next.js
               </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              I am a B.Tech Computer Science and Engineering student with a strong
+interest in programming, Artificial Intelligence, and modern technologies.
+I enjoy learning new skills, solving problems, and building projects
+that help me gain practical experience. I am continuously improving
+my technical knowledge and exploring new opportunities in technology.
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -330,11 +330,12 @@ projects to improve my technical skills.
               ✨ Projects
             </span>
             <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+              My Projects & Ideas.
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+            Explore my programming practice, technology interests,
+and AI project ideas. New projects will be added as I
+build and improve them.
             </p>
 
             {/* Carousel */}
