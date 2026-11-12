@@ -27,32 +27,16 @@ export default function Footer() {
       <div className="container mx-auto flex flex-row items-center justify-between py-6">
         <span className="flex flex-row items-center space-x-4">
           <p className="text-xs text-muted-foreground">
-            Made with ❤️ by{" "}
-            <Link
-              href="https://github.com/wendoj"
-              target="_blank"
-              passHref
-              className="text-foreground transition hover:text-primary"
-            >
-              wendoj
-            </Link>
-          </p>
+  © 2026 Manju Prajapati. All rights reserved.
+</p>
+          
           <hr className="hidden h-6 border-l border-muted md:flex" />
           <span className="flex hidden flex-row items-center space-x-2 md:flex">
             <p className="text-xs text-muted-foreground">Local time:</p>
             <p className="text-sm font-semibold">{time} UTC+1</p>
           </span>
         </span>
-        <Link
-          href="mailto:wendoj@proton.me"
-          passHref
-          className="text-xs text-muted-foreground hover:text-foreground"
-        >
-          <Button variant={"outline"}>
-            <MailIcon className="h-4 w-4 md:mr-2" />
-            <span className="hidden md:flex">wendoj@proton.me</span>
-          </Button>
-        </Link>
+        
       </div>
       <div className="h-1 bg-[radial-gradient(closest-side,#8486ff,#42357d,#5d83ff,transparent)] opacity-50" />
     </footer>
